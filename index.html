@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="entire_body_content">
+      <!-- start point for the main board -->
+
+      <div class="main-board">
+        <!-- start point for the position (HOME / AWAY) -->
+        <div class="home"><h1 class="home_display">HOME</h1></div>
+        <!-- end point for the the position (HOME / AWAY)  -->
+
+        <!-- start point for score display -->
+        <div class="display">
+          <h1 class="display_content" id="result_screen">0</h1>
+        </div>
+        <!-- end point for score display -->
+
+        <!-- start point for counters -->
+        <div class="counters">
+          <div class="first_counter">
+            <button class="button_images" onclick="addOne()">+1</button>
+          </div>
+          <div class="second_counter">
+            <button class="button_images" onclick="addTwo()">+2</button>
+          </div>
+          <div class="third_counter">
+            <button class="button_images" onclick="addThree()">+3</button>
+          </div>
+        </div>
+        <!-- end point for counters -->
+      </div>
+
+      <!-- end point for the main board -->
+      <!-- ...................................................................
+    ..................................................................... -->
+
+      <div class="main-board">
+        <!-- start point for the position (HOME / AWAY) -->
+        <div class="home"><h1 class="home_display">AWAY</h1></div>
+        <!-- end point for the the position (HOME / AWAY)  -->
+
+        <!-- start point for score display -->
+        <div class="display">
+          <h1 class="display_content" id="result_screen_away">0</h1>
+        </div>
+        <!-- end point for score display -->
+
+        <!-- start point for counters -->
+        <div class="counters">
+          <div class="first_counter">
+            <button class="button_images" onclick="addOne1()">+1</button>
+          </div>
+          <div class="second_counter">
+            <button class="button_images" onclick="addTwo2()">+2</button>
+          </div>
+          <div class="third_counter">
+            <button class="button_images" onclick="addThree3()">+3</button>
+          </div>
+        </div>
+        <!-- end point for counters -->
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
